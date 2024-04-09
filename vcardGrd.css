@@ -68,6 +68,10 @@ article{
 .header-logo,.header-footer{
     padding: 20px;
 }
+.header-logo figure {
+    padding: 0;
+    margin: 0;
+}
 .header-logo img{
     width: 80px;
 }
@@ -94,7 +98,7 @@ a:hover .icone path{
     fill: #999;
     transition: fill 0.4s;
 }
-figure {
+.content-picture figure {
     position: absolute;
     width: 350px;
     height: 460px;
